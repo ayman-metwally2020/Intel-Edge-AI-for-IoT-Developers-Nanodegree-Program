@@ -1,6 +1,14 @@
 # Computer Pointer Controller
 
-*TODO:* Write a short introduction to your project
+This is the last Project in order to obtain the Intel Edge AI Nanodegree from Udacity, the objective is to create an application capable of moving the computer pointer using only the movement from the head and eyes. This involves many considerations:
+
+We need several models working together, each one covering a needed functionality. We have used 4 pre-trained model that is provided by Open Model Zoo.
+We need to control the application logic to create an optimal flow, as the models involved could use a lot of resources.
+The project's main aim is to check usage of OpenVino ToolKit on different hardware which includes openvino inference API, OpenVino WorkBench and VTune Profiler.
+we could use different precisions models in order to gain more performance.
+In general, the flow looks like this:
+
+
 
 ## Project Set Up and Installation
 *TODO:* Explain the setup procedures to run your project. For instance, this can include your project directory structure, the models you need to download and where to place them etc. Also include details about how to install the dependencies your project requires.
